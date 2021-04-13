@@ -1,0 +1,45 @@
+---
+#
+# This is the canonical configuration for the `README.md`
+# Run `make readme` to rebuild the `README.md`
+#
+
+# Name of this project
+name: base-template
+
+email:
+  support: support@hadenlabs.com
+
+# Logo for this project
+#logo: docs/logo.png
+
+# License of this project
+license: 'LGPL-3.0'
+
+# Canonical GitHub repo
+github_repo: hadenlabs/base-template
+
+# Badges to display
+badges:
+  - name: GitHub tag (latest SemVer)
+    image: https://img.shields.io/github/v/tag/hadenlabs/base-template.svg?label=latest&sort=semver
+    url: https://github.com/hadenlabs/base-template/releases
+  - name: Lint
+    image: https://github.com/hadenlabs/base-template/actions/workflows/lint.yml/badge.svg?branch=develop
+    url: https://github.com/hadenlabs/base-template/actions
+  - name: Issues
+    image: https://img.shields.io/github/issues/hadenlabs/base-template.svg
+    url: https://github.com/hadenlabs/base-template/issues
+  - name: Latest Release
+    image: https://img.shields.io/github/release/hadenlabs/base-template.svg
+    url: https://github.com/hadenlabs/base-template/releases
+
+# Short description of this project
+description: |-
+  base-template for project.
+
+usage: |-
+
+  ```bash
+  agr 'zsh-vagrant' 'base-template'
+  ```
