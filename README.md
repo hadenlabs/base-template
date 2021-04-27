@@ -14,14 +14,14 @@
 
 # base-template
 
-[![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/hadenlabs/base-template.svg?label=latest&sort=semver)](https://github.com/hadenlabs/base-template/releases) [![Lint](https://github.com/hadenlabs/base-template/actions/workflows/lint.yml/badge.svg?branch=develop)](https://github.com/hadenlabs/base-template/actions) [![Issues](https://img.shields.io/github/issues/hadenlabs/base-template.svg)](https://github.com/hadenlabs/base-template/issues) [![Latest Release](https://img.shields.io/github/release/hadenlabs/base-template.svg)](https://github.com/hadenlabs/base-template/releases)
+[![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/hadenlabs/base-template?label=latest&sort=semver)](https://github.com/hadenlabs/base-template/releases) [![Latest Release](https://img.shields.io/github/release/hadenlabs/base-template)](https://github.com/hadenlabs/base-template/releases) [![Lint](https://img.shields.io/github/workflow/status/hadenlabs/base-template/lint-code)](https://github.com/hadenlabs/base-template/actions) [![Issues](https://img.shields.io/github/issues/hadenlabs/base-template)](https://github.com/hadenlabs/base-template/issues) [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow)](https://conventionalcommits.org) [![KeepAChangelog](https://img.shields.io/badge/Keep%20A%20Changelog-1.0.0-%23E05735)](https://keepachangelog.com)
 
-base-template for project.
+base-template for project
 
-## Usage
+### Replace name project to New Project
 
 ```bash
-agr 'zsh-vagrant' 'base-template'
+  agr 'base-template' 'new-project'
 ```
 
 ## Help
