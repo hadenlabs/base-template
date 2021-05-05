@@ -39,6 +39,9 @@ badges:
   - name: KeepAChangelog
     image: https://img.shields.io/badge/Keep%20A%20Changelog-1.0.0-%23E05735
     url: https://keepachangelog.com
+  - name: Beacon
+    image: https://ga-beacon.appspot.com/G-MZEK48EGE8/base-template/readme
+    url: https://github.com/hadenlabs/base-template
 
 description: |-
 
