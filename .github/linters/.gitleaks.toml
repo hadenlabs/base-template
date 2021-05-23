@@ -4,6 +4,11 @@ title = "gitleaks config"
     description = "AWS Access Key"
     regex = '''(A3T[A-Z0-9]|AKIA|AGPA|AIDA|AROA|AIPA|ANPA|ANVA|ASIA)[A-Z0-9]{16}'''
     tags = ["key", "AWS"]
+    [rules.allowlist]
+        description = "ignore value fake"
+        regexes = [
+            '''AIDAQEAAAAAAAAAAAAAA''',
+        ]
 
 [[rules]]
     description = "AWS cred file info"
@@ -115,6 +120,11 @@ title = "gitleaks config"
     description = "Env Var"
     regex = '''(?i)(apikey|secret|key|api|password|pass|pw|host)=[0-9a-zA-Z-_.{}]{4,120}'''
     tags = ["env"]
+    [rules.allowlist]
+        description = "ignore value fake"
+        regexes = [
+            '''host=HOST''',
+        ]
 
 [[rules]]
     description = "Email"
@@ -130,6 +140,7 @@ title = "gitleaks config"
             '''hola@hadenlabs.com''',
             '''support@hadenlbas.com''',
             '''support@hadenlabs.com''',
+            '''dum-u@hadenlabs.com''',
         ]
 
 [[rules]]
@@ -173,15 +184,16 @@ title = "gitleaks config"
 [allowlist]
     description = "files allowlists"
     files = [
-      '''(.*?)(jpg|gif|doc|pdf|bin)$''',
+      '''(.*?)(jpg|gif|png|doc|pdf|bin|mp3|mp4|mov|ttf|woff|woff2|eot|lock)$''',
       '''^\.gitignore$''',
       '''^\.gitleaks.toml$''',
       '''^yarn.lock$''',
     ]
 
 [whitelist]
-	description = "Ignore gitleaks config"
+	description = "Ignore"
 	files = [
+    '''(.*?)(jpg|gif|png|doc|pdf|bin|mp3|mp4|mov|ttf|woff|woff2|eot|lock)$''',
     '''^\.gitleaks.toml$''',
     '''^\.gitignore$''',
     '''^yarn.lock$''',
