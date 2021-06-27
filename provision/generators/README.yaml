@@ -21,27 +21,18 @@ github_repo: hadenlabs/base-template
 
 # Badges to display
 badges:
-  - name: GitHub tag (latest SemVer)
-    image: https://img.shields.io/github/v/tag/hadenlabs/base-template?label=latest&sort=semver
-    url: https://github.com/hadenlabs/base-template/releases
-  - name: Latest Release
-    image: https://img.shields.io/github/release/hadenlabs/base-template
-    url: https://github.com/hadenlabs/base-template/releases
+  - name: GitHub release
+    image: https://img.shields.io/github/release/hadenlabs/base-template?style=flat-square
+    url: https://github.com/hadenlabs/base-template/releases/latest
   - name: Lint
     image: https://img.shields.io/github/workflow/status/hadenlabs/base-template/lint-code
-    url: https://github.com/hadenlabs/base-template/actions
-  - name: Issues
-    image: https://img.shields.io/github/issues/hadenlabs/base-template
-    url: https://github.com/hadenlabs/base-template/issues
+    url: https://github.com/hadenlabs/base-template/actions?workflow=lint-code
   - name: Conventional Commits
     image: https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow
     url: https://conventionalcommits.org
   - name: KeepAChangelog
     image: https://img.shields.io/badge/Keep%20A%20Changelog-1.0.0-%23E05735
     url: https://keepachangelog.com
-  - name: Beacon
-    image: https://ga-beacon.appspot.com/G-MZEK48EGE8/base-template/readme
-    url: https://github.com/hadenlabs/base-template
 
 description: |-
 
