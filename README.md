@@ -12,17 +12,47 @@
 
   -->
 
+ 
+
+ [![GitHub release](https://img.shields.io/github/release/hadenlabs/base-template?style=flat-square)](https://github.com/hadenlabs/base-template/releases/latest) [![Lint](https://img.shields.io/github/workflow/status/hadenlabs/base-template/lint-code)](https://github.com/hadenlabs/base-template/actions?workflow=lint-code) [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow)](https://conventionalcommits.org) [![KeepAChangelog](https://img.shields.io/badge/Keep%20A%20Changelog-1.0.0-%23E05735)](https://keepachangelog.com)
+
 # base-template
 
-[![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/hadenlabs/base-template?label=latest&sort=semver)](https://github.com/hadenlabs/base-template/releases) [![Latest Release](https://img.shields.io/github/release/hadenlabs/base-template)](https://github.com/hadenlabs/base-template/releases) [![Lint](https://img.shields.io/github/workflow/status/hadenlabs/base-template/lint-code)](https://github.com/hadenlabs/base-template/actions) [![Issues](https://img.shields.io/github/issues/hadenlabs/base-template)](https://github.com/hadenlabs/base-template/issues) [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow)](https://conventionalcommits.org) [![KeepAChangelog](https://img.shields.io/badge/Keep%20A%20Changelog-1.0.0-%23E05735)](https://keepachangelog.com) [![Beacon](https://ga-beacon.appspot.com/G-MZEK48EGE8/base-template/readme)](https://github.com/hadenlabs/base-template)
-
+ 
 base-template for project
 
 ### Replace name project to New Project
 
 ```bash
   agr 'base-template' 'new-project'
-```
+``` 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Help
 
@@ -60,20 +90,34 @@ Using the given version number of `MAJOR.MINOR.PATCH`, we apply the following co
 
 ### Backwards compatibility in `0.0.z` and `0.y.z` version
 
-- In the context of initial development, backwards compatibility in versions `0.0.z` is **not guaranteed** when `z` is increased. (Initial development)
-- In the context of pre-release, backwards compatibility in versions `0.y.z` is **not guaranteed** when `y` is increased. (Pre-release)
+- In the context of initial development, backwards compatibility in versions `0.0.z` is **not guaranteed** when `z` is
+  increased. (Initial development)
+- In the context of pre-release, backwards compatibility in versions `0.y.z` is **not guaranteed** when `y` is
+  increased. (Pre-release)
+
+
+
 
 ## Copyright
 
 Copyright © 2018-2021 [Hadenlabs](https://hadenlabs.com)
 
+
+
 ## Trademarks
 
 All other trademarks referenced herein are the property of their respective owners.
 
+
+
+
+
+
 ## License
 
 The code and styles are licensed under the LGPL-3.0 license [See project license.](LICENSE).
+
+
 
 ## Don't forget to 🌟 Star 🌟 the repo if you like base-template
 
