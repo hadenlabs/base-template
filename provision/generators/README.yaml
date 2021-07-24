@@ -21,12 +21,15 @@ github_repo: hadenlabs/base-template
 
 # Badges to display
 badges:
-  - name: GitHub release
-    image: https://img.shields.io/github/release/hadenlabs/base-template?style=flat-square
-    url: https://github.com/hadenlabs/base-template/releases/latest
+  - name: Latest Release
+    image: https://img.shields.io/github/release/hadenlabs/base-template
+    url: https://github.com/hadenlabs/base-template/releases
   - name: Lint
     image: https://img.shields.io/github/workflow/status/hadenlabs/base-template/lint-code
     url: https://github.com/hadenlabs/base-template/actions?workflow=lint-code
+  - name: pre-commit
+    image: https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white
+    url: https://github.com/pre-commit/pre-commit
   - name: Conventional Commits
     image: https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow
     url: https://conventionalcommits.org
