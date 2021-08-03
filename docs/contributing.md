@@ -1,3 +1,6 @@
+<!-- Space: BASE-TEMPLATE -->
+<!-- Title: How To Contribute -->
+
 # How To Contribute
 
 Contributions to base-template are welcome.
