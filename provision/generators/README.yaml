@@ -10,6 +10,10 @@ name: base-template
 email:
   support: support@hadenlabs.com
 
+confluence:
+  space: BASE-TEMPLATE
+  title: readme
+
 # Logo for this project
 #logo: docs/logo.png
 
