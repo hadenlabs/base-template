@@ -73,4 +73,3 @@ repos:
           - --verbose
       - id: prepare-commit-msg
         stages: [prepare-commit-msg]
-
