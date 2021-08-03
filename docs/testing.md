@@ -1,3 +1,6 @@
+<!-- Space: BASE-TEMPLATE -->
+<!-- Title: Testing -->
+
 # Testing
 
 ## Running tests

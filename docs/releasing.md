@@ -1,3 +1,6 @@
+<!-- Space: BASE-TEMPLATE -->
+<!-- Title: Releasing -->
+
 # Releasing
 
 ## Bump a new version
