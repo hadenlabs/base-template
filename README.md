@@ -12,12 +12,13 @@
 
   -->
 
+ 
 
 
 
+ <!-- Space: BASE-TEMPLATE --> 
 
- <!-- Space: BASE-TEMPLATE -->
- <!-- Title: readme -->
+ <!-- Title: readme --> 
 
 
 
@@ -25,14 +26,14 @@
 
 # base-template
 
-
+ 
 base-template for project
 
 ### Replace name project to New Project
 
 ```bash
   agr 'base-template' 'new-project'
-```
+``` 
 
 
 
