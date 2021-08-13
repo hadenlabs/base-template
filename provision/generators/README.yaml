@@ -41,6 +41,7 @@ badges:
     image: https://img.shields.io/badge/Keep%20A%20Changelog-1.0.0-%23E05735
     url: https://keepachangelog.com
 
+# Short description of this project
 description: |-
 
   base-template for project
