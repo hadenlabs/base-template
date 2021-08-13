@@ -4,13 +4,15 @@ on:
   schedule:
     - cron: '0 0 * * *' # every day at midnight
 
-  push:
-    branches:
-      - develop
-
   pull_request:
     branches:
       - develop
+      - main
+
+  push:
+    branches:
+      - develop
+      - main
 
 jobs:
   pre-commit:
