@@ -14,6 +14,13 @@ on:
       - develop
       - main
 
+    tags:
+      - '[0-9]+.[0-9]+.[0-9]+'
+      # https://semver.org/ proper release tags, more or less
+      - 'v[0-9]+.[0-9]+.[0-9]+'
+      # prerelease tags, more or less
+      - 'v[0-9]+.[0-9]+.[0-9]+-*'
+
 jobs:
   pre-commit:
     runs-on: ubuntu-20.04
@@ -21,6 +28,6 @@ jobs:
       - name: Checkout
         if: ${{ !env.ACT }}
         uses: actions/checkout@v2
-      - uses: hadenlabs/action-pre-commit@0.1.5
+      - uses: hadenlabs/action-pre-commit@0.1.8
         with:
           args: run --all-files
