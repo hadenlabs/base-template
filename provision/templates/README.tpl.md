@@ -12,6 +12,8 @@
 
   -->
 
+{{ defineDatasource "config" .Env.README_YAML | regexp.Replace ".*" "" }} {{ defineDatasource "includes" .Env.README_INCLUDES | regexp.Replace ".*" "" }}
+
 {{ if has (ds "config") "confluence" }}
 {{ $confluence := (ds "config").confluence }}
 {{ if has $confluence "space" }} <!-- Space: {{ $confluence.space }} --> {{ end }}
