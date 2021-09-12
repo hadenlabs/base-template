@@ -8,6 +8,7 @@ includes:
   version: ./provision/task/version.yml
   docker: ./provision/task/docker.yml
   changelog: ./provision/task/changelog.yml
+  sonar: ./provision/task/sonar.yml
 
 env:
   DOCKER:
@@ -59,6 +60,7 @@ tasks:
       - git:check
       - gitflow:check
       - docs:check
+      - sonar:check
 
   readme:
     run: once
