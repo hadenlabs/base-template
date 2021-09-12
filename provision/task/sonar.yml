@@ -1,0 +1,28 @@
+version: '3'
+
+tasks:
+  check:
+    desc: Exist sonar and dependences
+    run: once
+    deps:
+      - task: check:docker
+
+  check:docker:
+    desc: Exist docker
+    run: once
+    preconditions:
+      - sh: command -v docker
+        msg: 'Please Install docker'
+
+  scan:
+    desc: scan sonarqube.
+    run: once
+    cmds:
+      - >-
+        docker run --rm -ti -v $(pwd)/:/usr/src
+        -e SONAR_HOST_URL={{.SONAR_HOST_URL}}
+        -e SONAR_LOGIN={{.SONAR_LOGIN}}
+        sonarsource/sonar-scanner-cli:latest
+        sonar-scanner
+    deps:
+      - task: check
