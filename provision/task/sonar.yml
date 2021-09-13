@@ -6,6 +6,7 @@ tasks:
     run: once
     deps:
       - task: check:docker
+      - task: check:vars
 
   check:docker:
     desc: Exist docker
@@ -14,12 +15,21 @@ tasks:
       - sh: command -v docker
         msg: 'Please Install docker'
 
+  check:vars:
+    desc: Exist vars for sonarqube
+    run: once
+    preconditions:
+      - sh: test -v SONAR_HOST_URL
+        msg: 'Please add var environment SONAR_HOST_URL'
+      - sh: test -v SONAR_LOGIN
+        msg: 'Please add var environment SONAR_LOGIN'
+
   scan:
     desc: scan sonarqube.
     run: once
     cmds:
       - >-
-        docker run --rm -ti -v $(pwd)/:/usr/src
+        docker run --rm -v $(pwd)/:/usr/src
         -e SONAR_HOST_URL={{.SONAR_HOST_URL}}
         -e SONAR_LOGIN={{.SONAR_LOGIN}}
         sonarsource/sonar-scanner-cli:latest
