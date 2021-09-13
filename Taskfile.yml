@@ -44,6 +44,7 @@ tasks:
         silent: true
       - task: version:default
       - task: summary
+      - cmd: task -l
     silent: true
 
   summary:
