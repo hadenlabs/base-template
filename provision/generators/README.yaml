@@ -41,6 +41,14 @@ badges:
     image: https://img.shields.io/badge/Keep%20A%20Changelog-1.0.0-%23E05735
     url: https://keepachangelog.com
 
+requirements: |-
+
+  This is a list of plugins that need to be installed previously to enjoy all the goodies of this configuration:
+
+  - [Docker](https://www.docker.com)
+  - [python](https://www.python.org)
+  - [taskfile](https://github.com/go-task/task)
+
 # Short description of this project
 description: |-
 
@@ -51,11 +59,3 @@ description: |-
   ```bash
     agr 'base-template' 'new-project'
   ```
-
-requirements: |-
-
-  This is a list of plugins that need to be installed previously to enjoy all the goodies of this configuration:
-
-  - [docker](https://www.docker.com)
-  - [python](https://www.python.org)
-  - [taskfile](https://github.com/go-task/task)
