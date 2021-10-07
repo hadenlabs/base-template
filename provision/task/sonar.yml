@@ -24,6 +24,16 @@ tasks:
       - sh: test -v SONAR_LOGIN
         msg: 'Please add var environment SONAR_LOGIN'
 
+  show:
+    desc: show vars sonarqube.
+    run: once
+    cmds:
+      - >-
+        echo {{.SONAR_HOST_URL}}
+        echo {{.SONAR_LOGIN}}
+    deps:
+      - task: check
+
   scan:
     desc: scan sonarqube.
     run: once
