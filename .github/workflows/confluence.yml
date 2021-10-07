@@ -1,9 +1,9 @@
-name: sonarqube
+name: confluence
 
 on:
   workflow_run:
     workflows:
-      - lint-code
+      - sonar-scan
     types:
       - completed
 
@@ -25,23 +25,24 @@ on:
       - 'v[0-9]+.[0-9]+.[0-9]+-*'
 
 env:
-  SONAR_HOST_URL: '${{ secrets.SONAR_HOST_URL }}'
-  SONAR_LOGIN: '${{ secrets.SONAR_LOGIN }}'
+  CONFLUENCE_BASE_URL: '${{ secrets.CONFLUENCE_BASE_URL }}'
+  CONFLUENCE_ACCESS_TOKEN: '${{ secrets.CONFLUENCE_ACCESS_TOKEN }}'
+  CONFLUENCE_USER: '${{ secrets.CONFLUENCE_USER }}'
 
 jobs:
-  sonar-scan:
+  confluence:
     runs-on: ubuntu-20.04
-
     steps:
       - name: Check out a copy of the repo
-        if: ${{ !env.ACT }}
         uses: actions/checkout@v2
         with:
-          fetch-depth: 2
+          fetch-depth: 0
 
       - name: Install Task
         uses: arduino/setup-task@v1
 
-      - name: Scan Sonar
-        if: ${{ !env.ACT }}
-        run: task sonar:scan
+      - name: Check dependences
+        run: task mark:check
+
+      - name: Sync confluence
+        run: task mark:sync
