@@ -1,5 +1,6 @@
-<!-- Space: BASE-TEMPLATE -->
-<!-- Title: Code Of Conduct -->
+<!-- Space: BaseTemplate -->
+<!-- Parent: Project -->
+<!-- Title: Code of Conduct -->
 
 # Contributor Covenant Code of Conduct
 
