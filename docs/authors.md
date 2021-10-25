@@ -1,4 +1,5 @@
-<!-- Space: BASE-TEMPLATE -->
+<!-- Space: BaseTemplate -->
+<!-- Parent: Project -->
 <!-- Title: Authors -->
 
 # Authors
