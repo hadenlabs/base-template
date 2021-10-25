@@ -1,4 +1,4 @@
- <!-- Space: BASE-TEMPLATE -->
+ <!-- Space: BaseTemplate -->
 <!-- Title: readme -->
 
 <!--
@@ -31,6 +31,7 @@ base-template for project
 
 This is a list of plugins that need to be installed previously to enjoy all the goodies of this configuration:
 
+- [Pyenv](https://github.com/pyenv/pyenv)
 - [Docker](https://www.docker.com)
 - [python](https://www.python.org)
 - [taskfile](https://github.com/go-task/task)
