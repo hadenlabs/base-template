@@ -12,7 +12,7 @@ email:
 
 confluence:
   space: BaseTemplate
-  title: readme
+  title: Project
 
 # Logo for this project
 #logo: docs/logo.png
