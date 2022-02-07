@@ -1,5 +1,11 @@
 default_stages:
   - commit
+exclude: >
+  (?x)^(
+    ^(\/|)vendor\/(.*?)$|
+    .+\.node_modules\/.*$|
+    .+\.lock$|
+  )$
 
 repos:
   - repo: https://github.com/codespell-project/codespell
@@ -7,12 +13,6 @@ repos:
     hooks:
       - id: codespell
         args: [--ignore-words=.codespell-ignores]
-        exclude: >
-          (?x)^(
-            .+\.vendor\/.*$|
-            .+\.node_modules\/.*$|
-            .+\.lock$|
-          )$
   - repo: https://github.com/alessandrojcm/commitlint-pre-commit-hook
     rev: v5.0.0
     hooks:
@@ -22,7 +22,7 @@ repos:
         args:
           - --config=.github/linters/.commitlintrc.json
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.0.1
+    rev: v4.1.0
     hooks:
       - id: detect-private-key
         files: ^(?!\.?git-crypt)
