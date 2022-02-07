@@ -31,12 +31,21 @@ badges:
   - name: Lint
     image: https://img.shields.io/github/workflow/status/hadenlabs/base-template/lint-code
     url: https://github.com/hadenlabs/base-template/actions?workflow=lint-code
+  - name: CI
+    image: https://img.shields.io/github/workflow/status/hadenlabs/base-template/ci
+    url: https://github.com/hadenlabs/base-template/actions?workflow=ci
+  - name: Test
+    image: https://img.shields.io/github/workflow/status/hadenlabs/base-template/test
+    url: https://github.com/hadenlabs/base-template/actions?workflow=test
   - name: pre-commit
     image: https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white
     url: https://github.com/pre-commit/pre-commit
   - name: Conventional Commits
     image: https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow
     url: https://conventionalcommits.org
+  - name: KeepAChangelog
+    image: https://img.shields.io/badge/changelog-Keep%20a%20Changelog%20v1.0.0-orange
+    url: https://keepachangelog.com
 
 requirements: |-
 
@@ -56,3 +65,6 @@ description: |-
   ```bash
     agr 'base-template' 'new-project'
   ```
+
+usages:
+  - docs/usage.md
