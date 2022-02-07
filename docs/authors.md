@@ -1,7 +1,3 @@
-<!-- Space: BaseTemplate -->
-<!-- Parent: Project -->
-<!-- Title: Authors -->
-
 # Authors
 
 ## Leads

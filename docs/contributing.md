@@ -1,6 +1,6 @@
 <!-- Space: BaseTemplate -->
 <!-- Parent: Project -->
-<!-- Title: Contributing -->
+<!-- Title: Project Contributing -->
 
 <!-- Label: BaseTemplate -->
 <!-- Label: Project -->

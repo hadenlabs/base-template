@@ -1,6 +1,6 @@
 <!-- Space: BaseTemplate -->
 <!-- Parent: Project -->
-<!-- Title: Releasing -->
+<!-- Title: Project Releasing -->
 
 <!-- Label: BaseTemplate -->
 <!-- Label: Project -->
