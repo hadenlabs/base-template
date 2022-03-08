@@ -1,3 +1,12 @@
+<!-- Space: Projects -->
+<!-- Parent: BaseTemplate -->
+<!-- Title: Security BaseTemplate -->
+
+<!-- Label: BaseTemplate -->
+<!-- Label: Security -->
+<!-- Include: docs/disclaimer.md -->
+<!-- Include: ac:toc -->
+
 # Security Policy
 
 ## Reporting a Security Bug

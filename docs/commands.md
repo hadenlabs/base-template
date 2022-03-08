@@ -1,11 +1,11 @@
-<!-- Space: BaseTemplate -->
-<!-- Parent: Project -->
-<!-- Title: Project Commands -->
+<!-- Space: Projects -->
+<!-- Parent: BaseTemplate -->
+<!-- Title: Commands BaseTemplate -->
 
 <!-- Label: BaseTemplate -->
 <!-- Label: Project -->
 <!-- Label: Commands -->
-<!-- Include: docs/disclaimer.md -->
+<!-- Include: disclaimer.md -->
 <!-- Include: ac:toc -->
 
 ## Commands

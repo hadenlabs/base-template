@@ -1,12 +1,12 @@
-<!-- Space: BaseTemplate -->
-<!-- Parent: Project -->
-<!-- Title: Contributing GitFlow -->
+<!-- Space: Projects -->
+<!-- Parent: BaseTemplate -->
+<!-- Title: Contributing GitFlow BaseTemplate -->
 
 <!-- Label: BaseTemplate -->
 <!-- Label: Project -->
 <!-- Label: Contributing -->
 <!-- Label: GitFlow -->
-<!-- Include: docs/disclaimer.md -->
+<!-- Include: ./../disclaimer.md -->
 <!-- Include: ac:toc -->
 
 To contribute to base-template project on [GitHub](https://github.com/hadenlabs/base-template), We use Gitflow (See more [here](https://datasift.github.io/gitflow/IntroducingGitFlow.html)) In a nutshell, it means that you should branch from the main repository and contribute back by making [pull request](https://github.com/hadenlabs/base-template/pulls).
@@ -17,7 +17,7 @@ To contribute to base-template project on [GitHub](https://github.com/hadenlabs/
 
 To follow the instructions in this guide and start contributing to base-template project on Gitlab:
 
-1.  **Fork** the repo on GitLab
+1.  **Fork** the repo on GitHub
 2.  **Clone** the project to your own machine
 
 To synchronize with the main repository, add it to the remotes:
