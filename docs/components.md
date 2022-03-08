@@ -1,11 +1,11 @@
-<!-- Space: BaseTemplate -->
-<!-- Parent: Project -->
-<!-- Title: Project Components -->
+<!-- Space: Projects -->
+<!-- Parent: BaseTemplate -->
+<!-- Title: Components BaseTemplate -->
 
 <!-- Label: BaseTemplate -->
 <!-- Label: Project -->
 <!-- Label: Components -->
-<!-- Include: docs/disclaimer.md -->
+<!-- Include: disclaimer.md -->
 <!-- Include: ac:toc -->
 
 # components

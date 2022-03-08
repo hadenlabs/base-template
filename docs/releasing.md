@@ -1,11 +1,11 @@
-<!-- Space: BaseTemplate -->
-<!-- Parent: Project -->
-<!-- Title: Project Releasing -->
+<!-- Space: Projects -->
+<!-- Parent: BaseTemplate -->
+<!-- Title: Releasing BaseTemplate -->
 
 <!-- Label: BaseTemplate -->
 <!-- Label: Project -->
 <!-- Label: Releasing -->
-<!-- Include: docs/disclaimer.md -->
+<!-- Include: disclaimer.md -->
 <!-- Include: ac:toc -->
 
 # Releasing

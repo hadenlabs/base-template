@@ -1,9 +1,9 @@
-<!-- Space: BaseTemplate -->
-<!-- Parent: Project -->
-<!-- Title: Project Examples -->
+<!-- Space: Projects -->
+<!-- Parent: BaseTemplate -->
+<!-- Title: Examples BaseTemplate -->
 
 <!-- Label: Examples -->
-<!-- Include: docs/disclaimer.md -->
+<!-- Include: ./../disclaimer.md -->
 <!-- Include: ac:toc -->
 
 ### common
