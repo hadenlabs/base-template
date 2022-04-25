@@ -68,3 +68,6 @@ description: |-
 
 usages:
   - docs/usage.md
+
+examples:
+  - 'docs/examples/common.md'

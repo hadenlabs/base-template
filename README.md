@@ -37,6 +37,20 @@ This is a list of plugins that need to be installed previously to enjoy all the 
 
 ## Usage
 
+# How to use this project
+
+## Examples
+
+<!-- Space: Projects -->
+<!-- Parent: BaseTemplate -->
+<!-- Title: Examples BaseTemplate -->
+
+<!-- Label: Examples -->
+<!-- Include: ./../disclaimer.md -->
+<!-- Include: ac:toc -->
+
+### common
+
 ## Help
 
 **Got a question?**
