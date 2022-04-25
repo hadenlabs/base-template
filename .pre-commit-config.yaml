@@ -22,7 +22,7 @@ repos:
         args:
           - --config=.ci/linters/.commitlintrc.json
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.1.0
+    rev: v4.2.0
     hooks:
       - id: detect-private-key
         files: ^(?!\.?git-crypt)
@@ -37,6 +37,8 @@ repos:
       - id: check-json
       - id: check-xml
       - id: check-yaml
+        args:
+          - --allow-multiple-documents
       - id: check-byte-order-marker
       - id: check-ast
       - id: debug-statements
