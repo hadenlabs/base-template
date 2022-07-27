@@ -46,6 +46,13 @@ tasks:
       - cmd: >-
           pipenv run black ./ {{.CLI_ARGS}}
 
+  test:
+    desc: run pytest.
+    run: once
+    cmds:
+      - cmd: >-
+          pipenv run pytest
+
   environment:
     desc: Generate environment python.
     run: once
