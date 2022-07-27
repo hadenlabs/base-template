@@ -10,7 +10,6 @@ coverage
 .build
 .terraform
 .ci/linters/.cache/*
-.ci/linters/.cache/*
 .cache/*
 terraform.md
 *.tpl.md
@@ -18,3 +17,4 @@ terraform.md
 vendor
 out
 .vscode-test
+.venv
