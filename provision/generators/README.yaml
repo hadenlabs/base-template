@@ -10,12 +10,8 @@ name: base-template
 email:
   support: support@hadenlabs.com
 
-confluence:
-  space: Projects
-  title: BaseTemplate
-
 # Logo for this project
-#logo: docs/logo.png
+# logo: docs/logo.png
 
 # License of this project
 license: 'LGPL-3.0'
@@ -59,12 +55,6 @@ requirements: |-
 description: |-
 
   base-template for project
-
-  ### Replace name project to New Project
-
-  ```bash
-    agr 'base-template' 'new-project'
-  ```
 
 usages:
   - docs/usage.md
