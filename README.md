@@ -1,6 +1,3 @@
- <!-- Space: Projects -->
-<!-- Title: BaseTemplate -->
-
 <!--
 
 
@@ -21,12 +18,6 @@
 
 base-template for project
 
-### Replace name project to New Project
-
-```bash
-  agr 'base-template' 'new-project'
-```
-
 ## Requirements
 
 This is a list of plugins that need to be installed previously to enjoy all the goodies of this configuration:
@@ -38,6 +29,12 @@ This is a list of plugins that need to be installed previously to enjoy all the 
 ## Usage
 
 # How to use this project
+
+## Replace name project to New Project
+
+```bash
+agr 'base-template' 'new-project'
+```
 
 ## Examples
 
