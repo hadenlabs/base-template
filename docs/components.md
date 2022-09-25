@@ -1,7 +1,6 @@
 <!-- Space: Projects -->
 <!-- Parent: BaseTemplate -->
 <!-- Title: Components BaseTemplate -->
-
 <!-- Label: BaseTemplate -->
 <!-- Label: Project -->
 <!-- Label: Components -->

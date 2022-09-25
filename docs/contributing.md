@@ -1,7 +1,6 @@
 <!-- Space: Projects -->
 <!-- Parent: BaseTemplate -->
 <!-- Title: Contributing BaseTemplate -->
-
 <!-- Label: BaseTemplate -->
 <!-- Label: Contributing -->
 <!-- Include: disclaimer.md -->
