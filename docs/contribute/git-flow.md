@@ -1,7 +1,6 @@
 <!-- Space: Projects -->
 <!-- Parent: BaseTemplate -->
 <!-- Title: Contributing GitFlow BaseTemplate -->
-
 <!-- Label: BaseTemplate -->
 <!-- Label: Project -->
 <!-- Label: Contributing -->

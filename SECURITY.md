@@ -1,7 +1,6 @@
 <!-- Space: Projects -->
 <!-- Parent: BaseTemplate -->
 <!-- Title: Security BaseTemplate -->
-
 <!-- Label: BaseTemplate -->
 <!-- Label: Security -->
 <!-- Include: docs/disclaimer.md -->

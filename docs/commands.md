@@ -1,7 +1,6 @@
 <!-- Space: Projects -->
 <!-- Parent: BaseTemplate -->
 <!-- Title: Commands BaseTemplate -->
-
 <!-- Label: BaseTemplate -->
 <!-- Label: Project -->
 <!-- Label: Commands -->
