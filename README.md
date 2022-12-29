@@ -45,7 +45,7 @@ agr 'base-template' 'new-project'
 <!-- Include: ./../disclaimer.md -->
 <!-- Include: ac:toc -->
 
-### common
+### Common
 
 ## Help
 
