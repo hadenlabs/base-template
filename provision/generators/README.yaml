@@ -14,7 +14,7 @@ email:
 # logo: docs/logo.png
 
 # License of this project
-license: 'LGPL-3.0'
+license: "LGPL-3.0"
 
 # Canonical GitHub repo
 github_repo: hadenlabs/base-template
@@ -60,4 +60,4 @@ usages:
   - docs/usage.md
 
 examples:
-  - 'docs/examples/common.md'
+  - "docs/examples/common.md"
