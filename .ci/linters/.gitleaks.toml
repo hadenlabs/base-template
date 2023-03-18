@@ -161,6 +161,7 @@ title = "gitleaks config"
         regexes = [
             '''host=HOST''',
             '''--private-key={{.PRIVATE_KEY_FILE}}''',
+            '''PASSWORD=XXXXXX''',
         ]
 
 
