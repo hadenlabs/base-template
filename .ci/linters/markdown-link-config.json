@@ -3,6 +3,9 @@
   "ignorePatterns": [
     {
       "pattern": "^https://hadenlabs.com"
+    },
+    {
+      "pattern": "^mailto:.*@hadenlabs\\.com"
     }
   ],
   "replacementPatterns": [
