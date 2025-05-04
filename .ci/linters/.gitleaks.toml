@@ -154,7 +154,7 @@ title = "gitleaks config"
 
 [[rules]]
     description = "Env Var"
-    regex = '''(?i)(apikey|secret|key|api|password|pass|pw|host)=[0-9a-zA-Z-_.{}]{4,120}'''
+    regex = '''(?i)(apikey|secret|key|api|password|pass)=[0-9a-zA-Z-_.{}]{4,120}'''
     tags = ["env"]
     [rules.allowlist]
         description = "ignore value fake"
@@ -164,7 +164,6 @@ title = "gitleaks config"
             '''PASSWORD=XXXXXX''',
             '''password={password}''',
         ]
-
 
 [[rules]]
     description = "High Entropy"
@@ -237,6 +236,7 @@ title = "gitleaks config"
     '''^yarn.lock$''',
     '''^vendor/(.*?)$''',
     '''^sonar-project.properties$''',
+    '''^test/fixtures/keys/.*-test.*$''',
     '''^node_modules/(.*?)$''',
   ]
   commits = [

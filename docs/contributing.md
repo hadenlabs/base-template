@@ -81,10 +81,10 @@ See [Testing](./testing.md).
 
 ### Code Submission
 
-1.  See if a [Pull Request](https://github.com/hadenlabs/base-template/pulls) exists
-    - Add some comments or review the code to help it along
-    - Don\'t be afraid to comment when logic needs clarification
-2.  Create a Fork and open a [Pull Request](https://github.com/hadenlabs/base-template/pulls) if needed
+1. See if a [Pull Request](https://github.com/hadenlabs/base-template/pulls) exists
+   - Add some comments or review the code to help it along
+   - Don\'t be afraid to comment when logic needs clarification
+2. Create a Fork and open a [Pull Request](https://github.com/hadenlabs/base-template/pulls) if needed
 
 ### Code Review
 
