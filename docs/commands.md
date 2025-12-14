@@ -157,14 +157,6 @@ task terragrunt:state REGION=us-east-1 STAGE=core COMMAND=list
 task terraform:docs STAGE=core
 ```
 
-### Python
-
-#### Format syntax code python with [black](https://github.com/psf/black)
-
-```{.bash}
-task python:fmt -- {{file_name or path}}
-```
-
 ### Diagrams
 
 #### Publish diagrams

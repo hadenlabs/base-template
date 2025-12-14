@@ -46,6 +46,8 @@ includes:
     taskfile: "https://raw.githubusercontent.com/hadenlabs/tasks/refs/heads/main/src/openssl/Taskfile.yml"
   terraform:
     taskfile: "https://raw.githubusercontent.com/hadenlabs/tasks/refs/heads/main/src/terraform/Taskfile.yml"
+  terragrunt:
+    taskfile: "https://raw.githubusercontent.com/hadenlabs/tasks/refs/heads/main/src/terragrunt/Taskfile.yml"
 
 env:
   DOCKER:
@@ -74,7 +76,7 @@ vars:
   DOCKER_PLATFORM: linux/amd64
   REVIEWERS: luismayta
   PYTHON_VERSION: 3.11.5
-  NODE_VERSION: v20.9.0
+  NODE_VERSION: v24.11.1
   GRADLE_VERSION: 8.4.0
   GOLANG_VERSION: 1.22.4
   GIT_IGNORES: python,node,go,zsh,sonar,java,maven,intellij+all,terraform,linux
@@ -88,6 +90,7 @@ vars:
     .secrets
     public
     TMP_CHANGELOG.md
+    .task
     .terraform.lock.hcl
     build
     .task
@@ -133,6 +136,7 @@ tasks:
       - docs:check
 
   readme:
+    run: once
     desc: Generate Readme
     silent: true
     cmds:
@@ -144,6 +148,7 @@ tasks:
       - task: prettier
 
   prettier:
+    run: once
     desc: Execute prettier files
     cmds:
       - task: prettier:all
@@ -155,6 +160,7 @@ tasks:
       - task: go:test
 
   upgrade:
+    run: once
     desc: Execute upgrade packages
     cmds:
       - uv update

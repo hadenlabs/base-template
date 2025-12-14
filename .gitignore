@@ -561,6 +561,7 @@ bin
 .secrets
 public
 TMP_CHANGELOG.md
+.task
 .terraform.lock.hcl
 build
 .task
