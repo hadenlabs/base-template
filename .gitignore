@@ -575,4 +575,6 @@ build
 .pmd
 vendor
 !uv.lock
+/.react-router/
+.dev.vars
 
