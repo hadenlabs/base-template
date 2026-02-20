@@ -27,15 +27,19 @@ repos:
           - --ignore-words=.ci/linters/.codespell-ignores
         exclude: >
           (?x)^(
+            agents.md|
+            app/components/sections\/.*$|
+            app/data\/.*$|
+            app/ia/datasets\/.*$|
+            app/routes\/.*$|
             go.mod|
             go.sum|
-            app/ia/datasets\/.*$|
             openapi.yaml|
-            .+\.vendor\/.*$|
-            .+\.node_modules\/.*$|
-            .+\.sops.*$|
             .+\.lock$|
             .+\.mdx$|
+            .+\.node_modules\/.*$|
+            .+\.sops.*$|
+            .+\.vendor\/.*$|
           )$
   - repo: https://github.com/alessandrojcm/commitlint-pre-commit-hook
     rev: v9.23.0
@@ -60,6 +64,10 @@ repos:
         files: ^tf|-|\.(py|env|yml|yaml)$
       - id: check-case-conflict
       - id: check-json
+        exclude: >
+          (?x)^(
+            .zed/tasks.json$|
+          )$
       - id: check-xml
       - id: check-yaml
         args:

@@ -78,8 +78,11 @@ vars:
   PYTHON_VERSION: 3.11.5
   NODE_VERSION: v24.11.1
   GRADLE_VERSION: 8.4.0
-  GOLANG_VERSION: 1.22.4
+  GOLANG_VERSION: 1.24.11
   GIT_IGNORES: python,node,go,zsh,sonar,java,maven,intellij+all,terraform,linux
+  COMMIT: $(git rev-parse HEAD)
+  RELEASE_DIR: ./release
+  DATE: $(date +%s)
   GOLANGCI_VERSION: 1.42.0
   TERRAFORM_VERSION: 1.11.4
   README_FILE: README.md
@@ -104,6 +107,8 @@ vars:
     .pmd
     vendor
     !uv.lock
+    /.react-router/
+    .dev.vars
 
 tasks:
   default:
@@ -136,7 +141,6 @@ tasks:
       - docs:check
 
   readme:
-    run: once
     desc: Generate Readme
     silent: true
     cmds:
@@ -148,7 +152,6 @@ tasks:
       - task: prettier
 
   prettier:
-    run: once
     desc: Execute prettier files
     cmds:
       - task: prettier:all
@@ -165,6 +168,7 @@ tasks:
     cmds:
       - uv update
       - uv run pre-commit autoupdate
+      - task: pnpm:update
 
   setup:
     desc: Setup dependences of project
